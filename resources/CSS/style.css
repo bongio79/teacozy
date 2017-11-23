@@ -6,6 +6,7 @@ body {
   background-color: black;
   opacity: 0.9;
 }
+/* Header */
 header {
   display: flex;
   flex-direction: row;
@@ -36,4 +37,29 @@ nav span {
 a {
   text-decoration: underline;
   color: seashell;
+}
+/* Main content */
+main {
+  display: flex;
+  flex-direction: column;
+}
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: 69px auto;
+}
+.ourmission {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1200px;
+}
+.ourmission h2, h4 {
+  margin: 10px;
 }
