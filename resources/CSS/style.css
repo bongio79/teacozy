@@ -48,16 +48,15 @@ main {
 }
 .top {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
   margin-top: 69px;
 }
 .mission {
-  display: flex;
   background-color: black;
-  flex-direction: column;
   width: 1200px;
 }
 h2 {
