@@ -100,7 +100,7 @@ img {
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
-  margin: 50px auto;
+  margin: 50px auto 0 auto;
 }
 .locations {
   display: flex;
@@ -118,4 +118,11 @@ img {
   background-color: black;
   margin: 0 15px;
   opacity: 1;
+}
+.info {
+  height: 200px;
+}
+footer h5 {
+  text-align: left;
+  margin-left: 20px;
 }
